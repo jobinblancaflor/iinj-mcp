@@ -1,0 +1,24 @@
+Date: 06/02/2018
+Author: JRB
+Company: Electrohm Haus Systems
+Client: IINJ-MCP
+
+Database
+-census
+	Updated the census table added status column
+
+view
+-census_table.php
+	added a message element for the deletion or update of the census information
+
+model
+-select_model.php
+	updated the selection of the census with the condition for the status
+	
+
+-udpate_model.php
+	add an general update function
+
+cotroller
+-auth_admin.php
+	added delete function for the census
